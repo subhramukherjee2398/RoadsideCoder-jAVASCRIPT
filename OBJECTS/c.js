@@ -8,7 +8,7 @@ console.log(p)
 
 /*
 
-delete only use to delete property fro an object ..it's doesnt delete local variable.
+delete only use to delete property for an object ..it's doesnt delete local variable.
 
 
 */

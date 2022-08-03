@@ -1,5 +1,8 @@
-let arr  = [ 1 , 2 , 3 , 4 , 5]
+let a = 20;
 
-arr.forEach((ele)=>{
-    console.log(ele)
-})
+function j(){
+    console.log(a)
+     let a = 30
+}
+
+j()
