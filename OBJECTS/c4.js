@@ -7,7 +7,7 @@ const setting = {
 const data =  JSON.stringify(setting,["level", "health"]);
 
 console.log(data)
-console.log(data.length)
+
 
 
 /*
