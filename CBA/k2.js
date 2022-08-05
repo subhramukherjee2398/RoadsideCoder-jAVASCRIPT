@@ -15,4 +15,4 @@ setTimeout(() => {
 
 
 //line -> 12  = 3
-//linr -> 13  = pointing to global objet
+//linr -> 13  = 1  pointing to global objet

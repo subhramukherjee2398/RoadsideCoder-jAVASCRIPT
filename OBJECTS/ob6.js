@@ -16,7 +16,7 @@ console.log(name);
 
 //renaming 
 
-//if let name = "SSS"  ; show error for dounle declaration
+//if let name = "SSS"  ; show error for double declaration
 
 const {name : myNAme } = p;
 
