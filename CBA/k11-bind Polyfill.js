@@ -16,9 +16,20 @@ Function.prototype.myBind = function(context = {},...args){
     }
  
     context.fn = this
-    return function(...newArgs){
-        return context.fn(...args,...newArgs)
+     /*  
+   let car1 = {
+    color :'red',
+    company : "MNC",
+    fn : function purchaseCar(){
+    console.log(this.color)
+    console.log(this.company)
     }
+};
+*/
+    return function(...args){
+        return context.fn(...args)
+    }
+
  
  }
 
