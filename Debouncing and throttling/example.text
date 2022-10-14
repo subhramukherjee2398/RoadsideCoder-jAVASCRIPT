@@ -1,0 +1,16 @@
+
+debouncing:
+
+If we see the flipkart and amazon search bar..if we type something after some milisec it will show us the suggestion result.
+
+so it help us optimize how we call a certain events
+so if we make a api call in every typing letter so it wil make unnessary call on beckend which will
+put a lot of pressure on server.
+so to avoid all those isssue we use debouncing.
+
+throttling :
+
+in twitter and instragram if we scroll down it will start fetching data and we can see more posts.
+so what's happing?
+a trottling is attach in scrollbar.scroller serch for ceratin height and then it wil call next few posts and give the user a infinity scroll 
+experience.

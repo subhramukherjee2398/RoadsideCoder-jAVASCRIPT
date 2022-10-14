@@ -1,22 +1,3 @@
-let car1 = {
-    color :'red',
-    company : "MNC"
-};
+const arr1 = [0, 1, 2, [3, [4,5]]];
 
-function purchaseCar(currency,price){
-    console.log(this.color)
-    console.log(this.company)
-    console.log(currency)
-    console.log(price)
-}
-
-Function.prototype.myCall = function(context={},...args){
-     if(typeof this !== "function"){
-        throw new Error("Error........")
-     }
-   context.fn = this
-   context.fn(...args) 
-    
-}
-
-purchaseCar.call(car1,"OOO","XXX")
+console.log(arr1.flat(2));
